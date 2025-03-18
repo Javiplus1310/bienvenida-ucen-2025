@@ -103,7 +103,6 @@
   color: #fff;
 }
 
-
 /*FOOTER*/
 .footer-ucentral{
   background-color: #039ed5;
@@ -138,7 +137,6 @@
     max-width: 20%;
     height: auto;
   }
-
   .menu-principal{
     margin: 0.5em !important;
   }
@@ -225,22 +223,4 @@ p {
 
 .boton:hover {
   background: #000;
-}
-
-.bg-principal-vesp {
-  background-color: #602f80;
-}
-
-.footer-ucentral-vesp {
-  background-color: #602f80;
-  font-size: 1.5em;
-}
-
-.card-body-vesp {
-  background-color: #039ed5;
-  color: #fff;
-}
-
-.fechas-vesp {
-  background-color: #039ed5;
 }
