@@ -1,0 +1,263 @@
+.primary-color{
+    color: #354093;	
+}
+.secondary-color{
+  color: #f5a04e;	
+}
+.bg-principal{
+  background-color: #039ed5;
+}
+.border-top{
+  border-top: 0px !important;
+}
+/*HEADER*/
+.secondary-header{
+  background-color: #000;
+}
+.logo-fluid{
+  max-width: 40%;
+  height: auto;
+}
+.header-ucen{
+  background-color: #9a4995;
+}      
+.logo-shadow{
+  box-shadow: -68px 50px 60px -20px rgba(0,0,0,0.45),
+68px 50px 60px -20px rgba(0,0,0,0.45)
+}
+.navbar-expand-md {
+  padding: 0px;
+}
+.dropdown-menu{
+  margin-top: 0px !important;
+  border-radius: 0px;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: "";
+  background-color: #fff;
+  width: 0%;
+  height: 2px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+/* Header secundario */
+.secondary-header{
+  font-size: .9rem;
+}
+/* RRSS */
+.bi-youtube:hover{
+  color: #c4302b;
+}
+.bi-linkedin:hover{
+  color: #0e76a8;
+}
+.bi-instagram:hover{
+  color: #FD297B;
+}
+.bi-facebook:hover{
+  color: #3b5998;
+}
+/*SLIDE*/
+.carousel {
+  margin-bottom: 1rem;
+}
+/*Masonry Grid*/
+.titulo-principal{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card {
+  border-radius: 0px !important;
+  border: 5px solid;
+}
+.card-img-top{
+  border-radius: 0px !important;
+}
+.card-title {
+  border-left: 5px solid #d06499;
+  padding-left: 6px;
+  
+}
+.card-body {
+  background-color: #602f80;
+  color: #fff;
+}
+.btn-bienvenido{
+  background-color: #d06499;
+  margin-top:0.5em;
+  color: #fff;
+} 
+.btn-bienvenido:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+/*FOOTER*/
+.footer-ucentral{
+  background-color: #039ed5;
+  font-size: 1.5em;
+}
+.bi-youtube-footer{
+  color: #fff;
+  font-size: 1.5em;
+}
+.bi-linkedin-footer{
+  color: #fff;
+  font-size: 1.5em;
+}
+.bi-instagram-footer{
+  color: #fff;
+  font-size: 1.5em;
+}
+.bi-facebook-footer{
+  color: #fff;
+  font-size: 1.5em;
+}
+.bi-twitter-x-footer{
+  color: #fff;
+  font-size: 1.5em;
+}
+.bi-youtube-footer:hover, .bi-linkedin-footer:hover, .bi-instagram-footer:hover, .bi-facebook-footer:hover, .bi-twitter-x-footer:hover{
+  color: #000; 
+}
+
+@media (max-width: 576px) {
+  .logo-fluid{
+    max-width: 20%;
+    height: auto;
+  }
+  .menu-principal{
+    margin: 0.5em !important;
+  }
+}
+
+/*Modal*/
+.modal-content {
+  background-color: #602f80;
+  border: 5px solid #000;
+  border-radius: 0px !important;
+  color: #fff;
+}
+
+/*Parrafos*/
+a {
+  text-decoration: none;
+}
+
+/*Mapas*/
+.map {
+  position: relative;
+  padding-bottom: 25%;
+  height: 0;
+  max-width: 100%;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.mapa {
+  position: relative;
+  padding-bottom: 65%;
+  height: 0;
+  max-width: 100%;
+}
+
+.mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*Acordeones*/
+.accordion-item {
+  border: none;
+}
+
+.accordion-item .accordion-button {
+  background: #602f80;
+  color: #fff;
+  border-radius: 0px !important;
+  border: 5px solid #000;
+}
+
+.accordion-item h2 button {
+  background: #602f80;
+  color: #fff;
+  font-weight: bold;
+}
+
+.accordion-body {
+  background: #602f80;
+  color: #fff;
+  border-radius: 0px !important;
+  border-left: 5px solid #000;
+  border-right: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+button.accordion-button::after {
+  background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.fechas {
+  background: #602f80;
+}
+
+.tabla {
+  border: 5px solid black;
+}
+
+.boton {
+  background: #d06499;
+}
+
+.boton:hover {
+  background: #000;
+}
+
+.bg-principal-vesp {
+  background-color: #602f80;
+}
+
+.footer-ucentral-vesp {
+  background-color: #602f80;
+  font-size: 1.5em;
+}
+
+.card-body-vesp {
+  background-color: #039ed5;
+  color: #fff;
+}
+
+.fechas-vesp {
+  background-color: #039ed5;
+}
